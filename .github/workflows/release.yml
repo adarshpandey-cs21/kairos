@@ -19,6 +19,8 @@ jobs:
     name: Release & publish
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    env:
+      HUSKY: "0"
     steps:
       - uses: actions/checkout@v4
         with:
