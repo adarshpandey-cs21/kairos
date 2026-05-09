@@ -1,6 +1,6 @@
 {
   "name": "@adarsh-pandey/kairos",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Kairos — plug-and-play personal productivity MCP server, driven by Claude Code CLI",
   "keywords": [
     "mcp",
@@ -29,7 +29,13 @@
   "bin": {
     "kairos": "./dist/cli/index.js"
   },
-  "files": ["dist", "skills", "README.md", "LICENSE", "DEVELOPMENT.md"],
+  "files": [
+    "dist",
+    "skills",
+    "README.md",
+    "LICENSE",
+    "DEVELOPMENT.md"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
